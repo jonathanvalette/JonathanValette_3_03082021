@@ -6,6 +6,19 @@ section {
         background-color: $colour-lightgray;
     }
 
+    &.gray {
+        position: relative;
+        z-index: 0;
+        background: $colour-gray;
+        text-align: center;
+        color: $colour-darkgray;
+        font-weight: bold;
+
+        &>i {
+            margin-right: 10px;
+        }
+    }
+
     &>h2 {
         @include roboto;
     }

@@ -49,6 +49,17 @@ section {
 section.lightgray {
   background-color: #F6F6F6;
 }
+section.gray {
+  position: relative;
+  z-index: 0;
+  background: #EAEAEA;
+  text-align: center;
+  color: #353535;
+  font-weight: bold;
+}
+section.gray > i {
+  margin-right: 10px;
+}
 section > h2 {
   font-family: "Roboto", sans-serif;
 }
@@ -85,13 +96,15 @@ footer > ul > li > a > i {
 }
 
 header {
+  position: relative;
+  z-index: 1;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: space-evenly;
       justify-content: space-evenly;
   -ms-flex-align: center;
       align-items: center;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   height: 70px;
 }
 header > a > img {

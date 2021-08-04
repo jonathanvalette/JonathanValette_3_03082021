@@ -26,6 +26,38 @@
     transform: scale(0.9, 1);
   }
 }
+@-webkit-keyframes buttonin {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+@keyframes buttonin {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+@-webkit-keyframes buttonout {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
+@keyframes buttonout {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
 h1,
 h2,
 h3,
@@ -48,6 +80,18 @@ section {
 }
 section.lightgray {
   background-color: #F6F6F6;
+}
+section.reservation {
+  text-align: center;
+  padding-bottom: 50px;
+}
+section.reservation > h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+section.reservation > p {
+  font-size: 18px;
 }
 section.gray {
   position: relative;
@@ -122,7 +166,7 @@ header > a > img {
   padding-bottom: 5px;
   text-decoration: none;
   border-radius: 15px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .card:visited {
   color: black;
@@ -198,4 +242,23 @@ header > a > img {
 }
 .like:hover i:last-child {
   display: block;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(-5deg, #FF79DA 0%, #9356DC 85%, #FF79DA 100%);
+  background-size: 2000%;
+  -webkit-animation: buttonout 0.8s ease-in-out backwards;
+          animation: buttonout 0.8s ease-in-out backwards;
+}
+.button:hover {
+  -webkit-animation: buttonin 0.8s ease-in-out forwards;
+          animation: buttonin 0.8s ease-in-out forwards;
+}
+.button.big {
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=main.css.map */

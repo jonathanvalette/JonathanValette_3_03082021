@@ -15,3 +15,24 @@
         transform: scale(0.9, 1);
     }
 }
+
+//buttons
+@keyframes buttonin {
+    from {
+        background-position: left;
+    }
+
+    to {
+        background-position: right;
+    }
+}
+
+@keyframes buttonout {
+    from {
+        background-position: right;
+    }
+
+    to {
+        background-position: left;
+    }
+}

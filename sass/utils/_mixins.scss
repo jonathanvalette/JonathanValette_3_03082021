@@ -16,9 +16,13 @@
     border-radius: 15px;
 }
 
+@mixin all-round-big {
+    border-radius: 100px;
+}
+
 // Shadows
 @mixin drop-shadow-big {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 @mixin drop-shadow-little {

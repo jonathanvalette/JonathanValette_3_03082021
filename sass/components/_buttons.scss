@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(-5deg, $colour-secondary 0%, $colour-primary 85%, $colour-secondary 100%);
+    background-size: 2000%;
+    animation: buttonout 0.8s ease-in-out backwards;
+
+    &:hover {
+        animation: buttonin 0.8s ease-in-out forwards;
+    }
+
+    &.big {
+        padding: 15px;
+        @include all-round-big;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}

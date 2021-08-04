@@ -28,7 +28,7 @@
         position: relative;
         z-index: 1;
         width: 100%;
-        aspect-ratio: 16/9;
+        aspect-ratio: 16/8;
         object-fit: cover;
         @include round-top-little;
     }
@@ -36,14 +36,19 @@
 
     &>.description {
         display: flex;
+        justify-content: space-between;
 
         &>.description-info {
-            margin: 0 15px;
+            margin: 5px 15px 0 15px;
             line-height: 10px;
 
             &>h3 {
                 @include roboto;
             }
+        }
+
+        &>.description-like {
+            margin: 20px 20px 0 0;
         }
     }
 }

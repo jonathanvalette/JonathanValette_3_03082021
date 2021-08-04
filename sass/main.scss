@@ -1,3 +1,15 @@
+// Utils
 @import "./utils/variables";
+@import "./utils/mixins";
+
+//Base
 @import "./base/fonts";
 @import "./base/resets";
+
+//Pages
+@import "./pages/index";
+
+//Components
+@import "./components/cards";
+@import "./components/new";
+@import "./components/like";

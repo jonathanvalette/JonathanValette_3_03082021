@@ -1,0 +1,12 @@
+section {
+    padding: 20px;
+    width: calc(100% - 40px);
+
+    &.lightgray {
+        background-color: $colour-lightgray;
+    }
+
+    &>h2 {
+        @include roboto;
+    }
+}

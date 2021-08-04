@@ -1,0 +1,9 @@
+.new {
+    display: block;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-style: normal;
+    border-radius: 2px;
+    color: darken($colour-tertiary, 40);
+    background-color: $colour-tertiary;
+}

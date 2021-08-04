@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rives\/OneDrive\/Developpement\/OpenClassroom\/Projet\%203\/GuillaumeRives_3_03082021\/sass\/base\/_fonts\.scss}line{font-family:\000034}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Shrikhand', cursive; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rives\/OneDrive\/Developpement\/OpenClassroom\/Projet\%203\/GuillaumeRives_3_03082021\/sass\/base\/_fonts\.scss}line{font-family:\0000313}}
+body,
+html {
+  font-family: 'Roboto', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rives\/OneDrive\/Developpement\/OpenClassroom\/Projet\%203\/GuillaumeRives_3_03082021\/sass\/base\/_resets\.scss}line{font-family:\000031}}
+body,
+html {
+  margin: 0;
+  padding: 0; }

@@ -20,20 +20,24 @@
 @keyframes buttonin {
     from {
         background-position: left;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     to {
         background-position: right;
+        box-shadow: 0 5px 10px 0 rgba($colour-secondary, 0.8);
     }
 }
 
 @keyframes buttonout {
     from {
         background-position: right;
+        box-shadow: 0 5px 10px 0 rgba($colour-secondary, 0.8);
     }
 
     to {
         background-position: left;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
     }
 }
 
@@ -52,17 +56,17 @@
 @keyframes loadingscreen {
     0% {
         opacity: 1;
-        height: 100%;
+        transform: translate3d(0, 0, 0);
     }
 
     90% {
         opacity: 1;
-        height: 100%;
+        transform: translate3d(0, 0, 0);
     }
 
     100% {
         opacity: 0;
-        height: 0%;
+        transform: translate3d(0, -100%, 0);
     }
 }
 

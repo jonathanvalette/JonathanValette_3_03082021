@@ -569,6 +569,7 @@ header > .back-btn:hover {
   background: linear-gradient(180deg, white 0%, white 50%, #FF79DA 50%, #9356DC 100%);
   background-size: 100% 200%;
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   animation: like ease-in-out 0.3s both;
 }

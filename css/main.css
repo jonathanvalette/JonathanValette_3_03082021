@@ -229,20 +229,15 @@ html {
 }
 
 body {
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .loadingscreen {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   z-index: 1000;
   width: 100%;
@@ -299,12 +294,9 @@ section > .tuto-list {
 }
 @media (min-width: 768px) {
   section > .tuto-list {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 section > .tuto-list > li {
@@ -380,12 +372,9 @@ section > h2 {
 
 @media (min-width: 768px) {
   .restaurants {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 
@@ -475,20 +464,15 @@ section > h2 {
 }
 @media (min-width: 768px) {
   .menu-form__nav {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: row;
-        flex-direction: row;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
 .menu-item {
   position: relative;
-  display: -ms-flexbox;
   display: flex;
   background: white;
   margin: 0 15px 10px 15px;
@@ -521,12 +505,9 @@ section > h2 {
   display: block;
   margin: -10px -10px -10px 10px;
   border-radius: 0 15px 15px 0;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -ms-flexbox;
+  flex-shrink: 0;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   overflow: hidden;
 }
 .menu-item > div:last-child > em {
@@ -534,8 +515,7 @@ section > h2 {
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 .menu-item > div:last-child > span {
   display: block;
@@ -595,14 +575,10 @@ footer > ul > li > a > i {
 header {
   position: relative;
   z-index: 1;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: white;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   height: 70px;
@@ -662,10 +638,8 @@ header > .back-btn:hover {
   border-radius: 15px 15px 0 0;
 }
 .card > .description {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
 }
 .card > .description > .description-info {
   margin: 5px 15px 0 15px;

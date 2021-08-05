@@ -1,7 +1,35 @@
 .menu-main {
+    position: relative;
+
     &>img {
         width: 100%;
         object-fit: cover;
         max-height: 275px;
+    }
+}
+
+.menu-form {
+    position: relative;
+    width: 100%;
+    background: $colour-lightgrey;
+    margin-top: -40px;
+    padding-top: 10px;
+    border-radius: 40px 40px 0 0;
+
+    &>h2 {
+        margin-left: 20px;
+        font-weight: 200;
+        font-size: 28px;
+    }
+
+    &>.menu-like {
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+
+        @media (max-width: $micro) {
+            right: 20px;
+        }
     }
 }

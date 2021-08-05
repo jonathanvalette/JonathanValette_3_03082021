@@ -36,3 +36,50 @@
         background-position: left;
     }
 }
+
+//List items
+@keyframes listitems {
+    from {
+        background-position: 50%;
+    }
+
+    to {
+        background-position: 0%;
+    }
+}
+
+//Loader
+@keyframes loadingscreen {
+    0% {
+        opacity: 1;
+        height: 100%;
+    }
+
+    90% {
+        opacity: 1;
+        height: 100%;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0%;
+    }
+}
+
+@keyframes loader {
+    from {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}

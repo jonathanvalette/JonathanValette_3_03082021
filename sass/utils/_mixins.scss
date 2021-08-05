@@ -16,6 +16,10 @@
     border-radius: 15px;
 }
 
+@mixin all-round-medium {
+    border-radius: 20px;
+}
+
 @mixin all-round-big {
     border-radius: 100px;
 }

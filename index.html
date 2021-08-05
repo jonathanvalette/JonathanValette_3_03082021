@@ -1,27 +1,35 @@
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/logo/favicon.svg">
     <link rel="stylesheet" href="css/main.min.css">
     <title>Accueil</title>
 </head>
 
 <body>
+    <!-- Loading screen -->
+    <span class="loadingscreen">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </span>
     <header>
         <a href="index.html">
             <img src="images/logo/logo.svg" alt="Logo ohmyfood">
         </a>
     </header>
     <main>
-        <!-- Loading screen -->
         <!-- Localisation -->
         <nav>
-            <section class="gray">
-                <i class="fas fa-map-marker-alt"></i>Paris, Belleville
+            <section class="grey">
+                <h2><i class="fas fa-map-marker-alt"></i>Paris, Belleville</h2>
             </section>
-            <section class="lightgray reservation">
-                <h1>Réservez le menu qui vous convient</h1>
+            <section class="lightgrey reservation">
+                <h2>Réservez le menu qui vous convient</h2>
                 <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
                 <a href="#restaurants" class="button big">Explorer nos restaurants</a>
             </section>
@@ -29,17 +37,17 @@
         <!-- Tutorial -->
         <section>
             <h2>Fonctionnement</h2>
-            <ol>
+            <ol class="tuto-list">
                 <li><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
                 <li><i class="fas fa-list"></i>Composez votre menu</li>
                 <li><i class="fas fa-store"></i>Dégustez au restaurant</li>
             </ol>
         </section>
         <!-- Restaurants list -->
-        <section id="restaurants" class="lightgray">
+        <section id="restaurants" class="lightgrey">
             <h2>Restaurants</h2>
             <nav>
-                <a href="menus/la-palette-du-gout.html" class="card">
+                <div class="card">
                     <em class="new">Nouveau</em>
                     <img src="images/restaurants/la-palette-du-gout.jpg" alt="La palette du goût">
                     <div class="description">
@@ -53,9 +61,10 @@
                                 <i class="fas fa-heart"></i>
                             </span>
                         </div>
+                        <a href="menus/la-palette-du-gout.html" class="cardlink"></a>
                     </div>
-                </a>
-                <a href="menus/la-note-enchantee.html" class="card">
+                </div>
+                <div class="card">
                     <em class="new">Nouveau</em>
                     <img src="images/restaurants/la-note-enchantee.jpg" alt="La note enchantée">
                     <div class="description">
@@ -69,9 +78,10 @@
                                 <i class="fas fa-heart"></i>
                             </span>
                         </div>
+                        <a href="menus/la-note-enchantee.html" class="cardlink"></a>
                     </div>
-                </a>
-                <a href="menus/a-la-francaise.html" class="card">
+                </div>
+                <div class="card">
                     <img src="images/restaurants/a-la-francaise.jpg" alt="À la française">
                     <div class="description">
                         <div class="description-info">
@@ -84,9 +94,10 @@
                                 <i class="fas fa-heart"></i>
                             </span>
                         </div>
+                        <a href="menus/a-la-francaise.html" class="cardlink"></a>
                     </div>
-                </a>
-                <a href="menus/le-delice-des-sens.html" class="card">
+                </div>
+                <div class="card">
                     <img src="images/restaurants/le-delice-des-sens.jpg" alt="Le délice des sens">
                     <div class="description">
                         <div class="description-info">
@@ -99,8 +110,9 @@
                                 <i class="fas fa-heart"></i>
                             </span>
                         </div>
+                        <a href="menus/le-delice-des-sens.html" class="cardlink"></a>
                     </div>
-                </a>
+                </div>
             </nav>
         </section>
     </main>

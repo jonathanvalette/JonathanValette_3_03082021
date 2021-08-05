@@ -344,6 +344,21 @@ section > h2 {
   font-weight: 200;
   font-size: 28px;
 }
+.menu-form > h3 {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu-form > h3::after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin-top: 3px;
+  background: #99E2D0;
+}
 .menu-form > .menu-like {
   display: inline-block;
   position: absolute;
@@ -542,4 +557,13 @@ header > .back-btn:hover {
 .button.big {
   padding: 15px;
   border-radius: 100px;
+}
+.button.order {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 140px;
+  border: none;
+  margin: 40px auto 80px auto;
 }/*# sourceMappingURL=main.css.map */

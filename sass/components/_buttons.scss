@@ -15,4 +15,14 @@
         padding: 15px;
         @include all-round-big;
     }
+
+    &.order {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        @include roboto;
+        width: 140px;
+        border: none;
+        margin: 40px auto 80px auto;
+    }
 }

@@ -362,6 +362,7 @@ header {
       justify-content: space-evenly;
   -ms-flex-align: center;
       align-items: center;
+  background: white;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   height: 70px;
 }

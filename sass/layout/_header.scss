@@ -4,6 +4,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background: white;
     @include drop-shadow-little;
     height: 70px;
 

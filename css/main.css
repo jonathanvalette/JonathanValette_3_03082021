@@ -463,6 +463,28 @@ section > h2 {
   -webkit-animation: showitems 0.2s 1.5s ease-in forwards;
           animation: showitems 0.2s 1.5s ease-in forwards;
 }
+@media (min-width: 768px) {
+  .menu-form__nav > div {
+    width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .menu-form__nav > div {
+    width: 33%;
+  }
+}
+@media (min-width: 768px) {
+  .menu-form__nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .menu-item {
   position: relative;

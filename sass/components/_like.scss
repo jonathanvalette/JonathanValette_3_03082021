@@ -14,7 +14,7 @@
             display: none;
             background: linear-gradient(180deg, white 0%, white 50%, $colour-secondary 50%, $colour-primary 100%);
             background-size: 100% 200%;
-            background-clip: text;
+            background-clip: content-box;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             color: $colour-primary;

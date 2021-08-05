@@ -568,7 +568,7 @@ header > .back-btn:hover {
   display: none;
   background: linear-gradient(180deg, white 0%, white 50%, #FF79DA 50%, #9356DC 100%);
   background-size: 100% 200%;
-  background-clip: text;
+  background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #9356DC;

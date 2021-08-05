@@ -78,7 +78,7 @@ section {
             counter-increment: list;
             cursor: pointer;
             background: white;
-            background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 40%, rgba(242, 234, 251, 1) 50%, rgba(242, 234, 251, 1) 100%);
+            background: radial-gradient(circle, rgba($colour-lightgrey, 1) 0%, rgba($colour-lightgrey, 1) 40%, lighten($colour-primary, 35) 50%, lighten($colour-primary, 35) 100%);
             background-size: 400%;
             background-position: 50%;
 

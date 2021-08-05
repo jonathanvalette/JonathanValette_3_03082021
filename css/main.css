@@ -318,7 +318,7 @@ section > .tuto-list > li {
   counter-increment: list;
   cursor: pointer;
   background: white;
-  background: radial-gradient(circle, white 0%, white 40%, #f2eafb 50%, #f2eafb 100%);
+  background: radial-gradient(circle, #f6f6f6 0%, #f6f6f6 40%, #f2eafb 50%, #f2eafb 100%);
   background-size: 400%;
   background-position: 50%;
 }

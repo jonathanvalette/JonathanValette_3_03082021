@@ -570,7 +570,8 @@ header > .back-btn:hover {
   background-size: 100% 200%;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
+  color: #9356DC;
   animation: like ease-in-out 0.3s both;
 }
 .like > i:first-child {

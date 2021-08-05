@@ -87,3 +87,46 @@
         opacity: 0;
     }
 }
+
+//Menu items
+@keyframes checkshow {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 60px;
+    }
+}
+
+@keyframes checkhide {
+    from {
+        width: 60px;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes checkrotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes showitems {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 10px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}

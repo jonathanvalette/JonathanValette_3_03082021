@@ -12,6 +12,10 @@
     border-radius: 15px 15px 0 0;
 }
 
+@mixin round-right-little {
+    border-radius: 0 15px 15px 0;
+}
+
 @mixin all-round-little {
     border-radius: 15px;
 }
@@ -31,4 +35,11 @@
 
 @mixin drop-shadow-little {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+// Text
+@mixin overflow-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }

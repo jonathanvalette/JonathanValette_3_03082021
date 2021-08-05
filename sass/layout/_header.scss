@@ -2,13 +2,27 @@ header {
     position: relative;
     z-index: 1;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     background: white;
     @include drop-shadow-little;
     height: 70px;
 
-    &>a>img {
-        transform: scale(0.85);
+    &>:last-child {
+        &>img {
+            transform: scale(0.85);
+        }
+    }
+
+    &>.back-btn {
+        position: absolute;
+        left: 25px;
+        font-size: 24px;
+        color: black;
+
+        &:hover {
+            color: $colour-primary;
+        }
     }
 }

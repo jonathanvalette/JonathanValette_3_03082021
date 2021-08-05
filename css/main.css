@@ -321,6 +321,13 @@ section > h2 {
   }
 }
 
+.menu-main > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 275px;
+}
+
 footer {
   background: #353535;
   padding: 5px 25px;
@@ -358,16 +365,27 @@ header {
   z-index: 1;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: space-evenly;
-      justify-content: space-evenly;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
   -ms-flex-align: center;
       align-items: center;
   background: white;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
   height: 70px;
 }
-header > a > img {
+header > :last-child > img {
   transform: scale(0.85);
+}
+header > .back-btn {
+  position: absolute;
+  left: 25px;
+  font-size: 24px;
+  color: black;
+}
+header > .back-btn:hover {
+  color: #9356DC;
 }
 
 .card {

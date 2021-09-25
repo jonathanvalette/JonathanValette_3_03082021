@@ -148,6 +148,11 @@ body, html {
   animation: moveIn 1s ease-in-out 0.1s;
 }
 
+.footer__logo {
+  font-family: "Shrikhand";
+  font-size: 22px;
+}
+
 .loader {
   position: fixed;
   height: 100%;

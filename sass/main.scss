@@ -1,22 +1,10 @@
 // Utils
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./utils/animations";
+@import "./utils/animation";
 
 //Base
-@import "./base/fonts";
-@import "./base/global";
-
-//Pages
-@import "./pages/index";
-@import "./pages/menus";
+@import "./base/base";
 
 //Layouts
-@import "./layout/footer";
-@import "./layout/header";
+@import "./layout/homepage";
+@import "./layout/menupages";
 
-//Components
-@import "./components/cards";
-@import "./components/new";
-@import "./components/like";
-@import "./components/buttons";

@@ -1,0 +1,103 @@
+@use "sass:color";
+
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #8ac0b2;
+
+@mixin button($type) {
+  border: 0;
+  padding: 1em 2em;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(104, 104, 104);
+  background-image: linear-gradient(0deg, color.scale($color-primary, $alpha: -10%) 0%, color.scale($color-secondary, $alpha: -10%) 100%);
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+
+
+  &:hover {
+    background-color: white;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.50);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+body, html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 1.03rem;
+}
+
+
+.header {
+
+  &__logo {
+    font-family: "Shrikhand", "cursive";
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: #353535;
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 0.1rem;
+  }
+  
+  &__logo {
+    color: white;
+    font-family: "Shrikhand", "cursive";
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__listElt {
+    margin: 0.5rem 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__icon {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+#identifie1{
+  animation: moveIn 1s ease-in-out 0.1s;
+}
+

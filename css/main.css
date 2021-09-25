@@ -255,8 +255,7 @@ body, html {
   margin-top: 1.3em;
 }
 .presentation__step:hover {
-  background-color: #c99eff;
-  color: #9356DC;
+  background-color: #f3e6ff;
 }
 .presentation__steps {
   padding: 0;

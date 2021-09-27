@@ -6,7 +6,7 @@ $color-tertiary: #8ac0b2;
 
 @mixin button($type) {
   border: 0;
-  padding: 1em 2em;
+  padding: 0.6em 0.6em;
   font-weight: 600;
   font-size: 1.5rem;
   border-radius: 100px;

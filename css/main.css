@@ -322,8 +322,8 @@ body, html {
   color: #9356DC;
 }
 .presentation__text {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
   font-weight: bold;
 }
 
